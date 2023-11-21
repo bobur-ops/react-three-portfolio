@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
     setMenuOpened(false);
-  }, [menuOpened]);
+  }, [section]);
 
   return (
     <>
